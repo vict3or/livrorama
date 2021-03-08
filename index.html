@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Livrorama</title>
+  <script src="script.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+      <header>
+        <div id="page-banner">
+          <h1 id="title">Livrorama</h1>
+          <p>Livros para Ninjas</p>
+          <form id="search-books">
+            <input type="text" placeholder="Procure Livros...">
+          </form>
+        </div>
+      </header>
+      <div id="book-list">
+        <h2 class="title">Livros para leitura</h2>
+        <ul>
+          <li>
+            <span class="name">O Nome do Vento</span>
+            <span class="delete">deletar</span>
+          </li>
+          <li>
+            <span class="name">O temor do sábio</span>
+            <span class="delete">deletar</span>
+          </li>
+          <li>
+            <span class="name">Alice no país das maravilhas</span>
+            <span class="delete">Deletar</span>
+          </li>
+          <li>
+            <span class="name">Colina escarlate</span>
+            <span class="delete">Deletar</span>
+          </li>
+        </ul>
+      </div>
+      <form id="add-book">
+        <input type="checkbox" id="hide" />
+        <label for="hide">Esconder todos os livros</label>
+        <input type="text" placeholder="Adicione um livro...">
+        <button>Adicionar</button>
+      </form>
+      <div id="tabbed-content">
+        <ul class="tabs">
+          <li data-target="#about" class="active">Sobre</li>
+          <li data-target="#contact">Contato</li>
+        </ul>
+        <div class="panel" id="about">
+          <p>Conteudo para tab...</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="panel" id="contact">
+          <p>Conteudo para contato...</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </div>
+
+    
+</body>
+</html>
